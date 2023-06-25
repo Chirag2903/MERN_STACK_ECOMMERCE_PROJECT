@@ -1,0 +1,139 @@
+.contact-page{
+  width: 100vw;
+  height: 100vh;
+  position:fixed;
+  justify-content: space-between;
+  background-color: white;
+  align-items:center;
+  display: flex;
+  cursor: url("https://img.icons8.com/color/48/000000/edit--v2.png"), pointer;
+  background-image:url("../../../images/contact.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+ .contactContainer {
+    margin:3vmax;
+    padding: 2vmax;
+    width: 17vw;
+    height: 12vw;
+    display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.192);
+  border-radius: 100px;
+  color: rgba(0, 0, 0, 0.623);
+  }
+  .contactContainer:hover{
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+  }
+  .mailBtn {
+    text-decoration: none;
+    border-radius: 100px;
+  }
+  .mailBtn > button {
+    text-decoration: none;
+    font: 180 2vmax "Roboto";
+    cursor: url("https://img.icons8.com/color/48/000000/edit--v2.png"), pointer;
+    padding: 2vmax;
+  }
+  .contact-containter-2{
+    margin:3vmax;
+    padding: 2vmax;
+    width: 15vw;
+    height: 12vw;
+   justify-content: center;
+   align-items: center;
+   box-shadow: -10px 10px 10px rgba(0, 0, 0, 0.192);
+   background-color: white;
+   border-radius: 100px;
+  }
+  .contact-containter-2:hover{
+    transition: all 0.5s ease;
+    transform: scale(1.1);
+  }
+  .contact-containter-2 > h2{
+    color: rgba(0, 0, 0, 0.623);
+    font: 100 3vmax "Roboto";
+    margin: 1vmax;
+    font-weight: bold;
+  }
+  .conatct-container2-2{
+    width: 25vw;
+    height: 15vw;
+    justify-content: space-between;
+  }
+  .conatct-container2-2 > a > svg {
+    font-size: 4vmax;
+    margin: 1vmax;
+  }
+  .mailBtn {
+    text-decoration: none;
+  }
+  
+  .mailBtn > button {
+    text-decoration: none;
+    font: 80 2vmax "Roboto";
+    padding: 1vmax;
+    font-weight: bold;
+    border-radius: 100px;
+    color: rgba(0, 0, 0, 0.623);
+  }
+  .instaSvgIcon{
+    color:rgb(136, 4, 237);
+  }
+  .mailsvgIcon{
+    color:rgb(195, 7, 7);
+  }
+  
+  @media screen and (max-width: 600px) {
+    .contact-page{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+
+    .contactContainer{
+      margin:3vmax;
+      padding: 2vmax;
+      width: 50vw;
+      display: flex;
+      height: 30vw;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+     border-radius: 50px;
+    }
+
+    .contact-containter-2{
+      margin:3vmax;
+      padding: 2vmax;
+      width: 50vw;
+      display: flex;
+      height: 30vw;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+     border-radius: 50px;
+    }
+    .contact-containter-2 > h2{
+      color: rgba(0, 0, 0, 0.623);
+      font: 150 3vmax "Roboto";
+      margin: 1vmax;
+      font-weight: bold;
+    }
+    .conatct-container2-2{
+      width: 25vw;
+      height: 15vw;
+      display: flex;
+      justify-content: center;
+    }
+    .conatct-container2-2 > a > svg {
+      font-size: 6vmax;
+      margin: 1vmax;
+    }
+  }
