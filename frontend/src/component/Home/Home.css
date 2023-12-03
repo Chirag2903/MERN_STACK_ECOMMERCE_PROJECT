@@ -1,53 +1,47 @@
-  .banner{
-  background-image: url("../../images/cover.jpg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
+  .banner {
+    background-image: url("../../images/c.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
     height: 100vmin;
     text-align: center;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    background-color: purple;
-}
+    background-size: cover;
+  }
 
-.banner > h1 {
+  .banner>h1 {
     margin: 5vmax;
     font: 600 2.5vmax "Lucida Sans";
     font-weight: bolder;
-}
+    color: white;
+  }
 
-.banner > p {
+  .banner>p {
     font: 300 1.4vmax "Lucida Sans";
     font-weight: bolder;
+    color: white;
   }
-  
-  .banner > a > button {
+
+  .banner>a>button {
     margin-bottom: 5vmax;
     cursor: pointer;
-    background-color:white;
+    background-color: white;
     border-radius: 100px;
     padding: 1vmax;
     transition: all 0.5s;
     width: 9vmax;
     font: 200 1vmax "Roboto";
   }
-  .banner > a > button:hover {
+
+  .banner>a>button:hover {
     background-color: rgba(255, 255, 255, 0);
     color: white;
   }
-  .banner::after {
-    content: "";
-    width: 100vw;
-    height: 100vmin;
-    background-color: #ffffff;
-    position: absolute;
-    top: 0%;
-    left: 0;
-    clip-path: polygon(100% 68%, 0 100%, 100% 100%);
-    max-width: 100%;
-  }   
+
+
 
   .homeHeading {
     text-align: center;
@@ -59,14 +53,15 @@
     margin: 5vmax auto;
     color: rgb(0, 0, 0, 0.7);
   }
+
   .container {
     display: flex;
     margin: 2vmax auto;
-    width :80vw;
-    flex-wrap: wrap;   
+    width: 80vw;
+    flex-wrap: wrap;
     justify-content: center;
   }
-  
+
   .productCard {
     width: 14vmax;
     display: flex;
@@ -77,49 +72,53 @@
     transition: all 0.5s;
     padding-bottom: 0.5vmax;
   }
-  .productCard > img {
+
+  .productCard>img {
     width: 14vmax;
   }
-  .productCard > div {
+
+  .productCard>div {
     margin: 0.5vmax;
     display: flex;
     justify-content: flex-start;
     align-items: center;
   }
-  .productCard > p {
+
+  .productCard>p {
     font-family: "Roboto";
     font-size: 1.2vmax;
     margin: 1vmax 0.5vmax;
     margin-bottom: 0;
   }
-  .productCard > span {
+
+  .productCard>span {
     margin: 0.5vmax;
-    color:#024cc6;
+    color: #024cc6;
     font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
     font-size: 1vmax;
   }
-  
+
   .productCard:hover {
     box-shadow: 0 0 5px rgba(15, 15, 15, 0.26);
-  
+
     transform: translateY(-1vmax);
   }
 
   @media screen and (max-width: 600px) {
-    .productCard > p {
+    .productCard>p {
       font-size: 1.7vmax;
     }
-  
-    .productCard > div {
+
+    .productCard>div {
       margin: 0vmax;
       display: block;
     }
-  
-    .productCard > span {
+
+    .productCard>span {
       font-size: 1.5vmax;
     }
-  
-    .productCard > div > span {
+
+    .productCard>div>span {
       margin: 0 0.5vmax;
       font: 300 1vmax "Roboto";
     }
